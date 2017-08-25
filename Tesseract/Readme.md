@@ -76,3 +76,4 @@ export TESSDATA_PREFIX=/usr/local/share/
 * https://github.com/tesseract-ocr/tesseract/wiki/Compiling
 * https://www.linux.com/blog/using-tesseract-ubuntu
 * https://github.com/tesseract-ocr/tesseract/wiki/Data-Files
+* https://github.com/tesseract-ocr/tesseract
