@@ -10,14 +10,17 @@ MIN_CONTOUR_AREA = 25
 
 RESIZED_IMAGE_WIDTH = 20
 RESIZED_IMAGE_HEIGHT = 30
-
 ###################################################################################################
+
+path = "/media/feliz/Safira/GitHub/Captcha-Solver/Data/PrivateCircle/Captchas/"
+imgpath = path + str(os.listdir(path)[100])
+
 # def main():
 
 # cv2.startWindowThread()
 # cv2.namedWindow("Preview")
 
-imgTrainingNumbers = cv2.imread("Data/captcha_30.png")            # read in training numbers image
+imgTrainingNumbers = cv2.imread(imgpath)            # read in training numbers image
 
 # if imgTrainingNumbers is None:                          # if image was not read successfully
 #     print "error: image not read from file \n\n"        # print error message to std out
